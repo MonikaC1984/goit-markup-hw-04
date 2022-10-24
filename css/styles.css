@@ -70,10 +70,14 @@ body {
 .content-kontakt {
   display: flex;
   margin-left: auto;
-  width: 295px;
+  width: 320px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+
+.svg-nav {
+  margin-right: 10px;
 }
 
 .logo {
@@ -132,6 +136,12 @@ body {
   color: var(--color-par);
 }
 
+.background-image {
+  background-image: url("/images/backgrund.jpg");
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .background-intro {
   background-color: var(--background-color);
 }
@@ -182,6 +192,7 @@ body {
   pointer-events: none;
   position: absolute;
 }
+
 .card-set {
   display: flex;
   padding-bottom: 10px;
@@ -195,6 +206,15 @@ body {
   align-items: stretch;
 }
 
+.item-svg {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--filter-color);
+  margin-bottom: 30px;
+}
 .container-img {
   display: block;
   justify-content: center;
@@ -203,7 +223,6 @@ body {
 
 .images-agencja {
   display: flex;
-  list-style: none;
   gap: 30px;
 }
 
@@ -235,6 +254,10 @@ p.p {
   list-style: none;
   gap: 30px;
 }
+
+.team li {
+  box-shadow: ;
+}
 .names {
   font-family: "Roboto";
   font-weight: 500;
@@ -247,15 +270,45 @@ p.p {
   margin-bottom: 10px;
 }
 
+.social-media {
+  display: flex;
+  margin: 16px 32px 18px 32px;
+  width: 206px;
+  height: 44px;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .p1 {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-par);
-  margin-bottom: 30px;
 }
 
+.clients {
+  display: flex;
+  gap: 30px;
+}
+
+.item-clients {
+  flex-basis: ((100%-150px)/6);
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join {
+  color: var(--color-header);
+  text-transform: uppercase;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.17;
+}
 .container-filter {
   display: flex;
   margin: 0 auto;
@@ -331,6 +384,10 @@ p.p {
 }
 
 .container-footer {
+  display: flex;
+}
+
+.kontakt-footer {
   display: block;
 }
 .footer {
@@ -363,4 +420,23 @@ p.p {
 }
 .cf2 {
   color: #ffffff99;
+}
+.social-footer {
+  margin: 0 auto 100px 70px;
+  padding-top: 12px;
+}
+
+.social-media1 {
+  display: flex;
+  gap: 10px;
+}
+.social-media1 a {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  flex-basis: ((100%-30px)/4);
+  background-color: #757575;
+  margin-left: 0px;
+  margin-top: 20px;
 }
