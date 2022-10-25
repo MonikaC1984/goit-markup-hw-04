@@ -328,7 +328,7 @@ p.p {
 .join {
   color: var(--color-header);
   text-transform: uppercase;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
 }
