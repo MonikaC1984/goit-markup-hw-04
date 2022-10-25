@@ -280,7 +280,6 @@ p.p {
   margin: 16px 32px 18px 32px;
   width: 206px;
   height: 44px;
-  border-radius: ;
   align-items: center;
   justify-content: space-around;
 }
@@ -290,6 +289,11 @@ p.p {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+}
+
+.social-media a:hover {
+  background-color: var(--logo1-color);
+  --color4: var(--color-header);
 }
 
 .p1 {
@@ -317,9 +321,8 @@ p.p {
 
 .item-clients:hover {
   background-color: var(--color-header);
-  color: var(--logo1-color);
   border-color: var(--logo1-color);
-  stroke: var(--logo1-color);
+  --color4: var(--logo1-color);
 }
 
 .join {
@@ -466,4 +469,9 @@ p.p {
   background-color: #757575;
   margin-left: 0px;
   margin-top: 20px;
+}
+
+.social-media1 a:hover {
+  background-color: var(--logo1-color);
+  --color4: var(--color-header);
 }
