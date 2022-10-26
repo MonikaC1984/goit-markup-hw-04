@@ -292,8 +292,8 @@ p.p {
 }
 
 .social-media a:hover {
-  background-color: var(--logo1-color);
-  --color4: var(--color-header);
+  background-color: #2196f3;
+  --color4: #ffffff;
 }
 
 .p1 {
@@ -472,6 +472,6 @@ p.p {
 }
 
 .social-media1 a:hover {
-  background-color: var(--logo1-color);
-  --color4: var(--color-header);
+  background-color: #2196f3;
+  --color4: #ffffff;
 }
